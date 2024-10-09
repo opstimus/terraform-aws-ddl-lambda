@@ -19,7 +19,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v4
       with:
         audience: sts.amazonaws.com
-        aws-region: ap-southeast-1
+        aws-region: us-east-1
         role-to-assume: arn:aws:iam::395353312639:role/DEVOPS-253-automate-db-user-creation-temp
 
     - name: Login to Amazon ECR
